@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kestel Nöbetçi Eczane – Bugün Nöbetçi Eczaneler</title>
+<meta name="description" content="Bursa Kestel'de bugün nöbetçi olan eczaneler: adres, telefon ve yol tarifi tek sayfada.">
+<meta name="theme-color" content="#0c1915">
+<meta property="og:title" content="Kestel Nöbetçi Eczane">
+<meta property="og:description" content="Kestel'de bugün nöbetçi eczaneler, adresleri ve telefonları.">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f6f2;--card:#fff;--ink:#10201a;--mute:#55655e;--line:#d9e0da;--green:#0f7b55;--soft:#e2f1e9;--red:#d8232f;--on:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1410;--card:#13201a;--ink:#ecf3ee;--mute:#97a8a0;--line:#22322a;--green:#46d39c;--soft:#163527;--red:#ff4d57;--on:#05170f}}
+:root[data-theme="dark"]{--bg:#0b1410;--card:#13201a;--ink:#ecf3ee;--mute:#97a8a0;--line:#22322a;--green:#46d39c;--soft:#163527;--red:#ff4d57;--on:#05170f}
+*{box-sizing:border-box}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--green);outline-offset:2px}
+.wrap{max-width:920px;margin:0 auto;padding:0 18px}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:14px;height:60px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;margin-right:auto;line-height:1.15}
+.brand b{display:block}.brand small{color:var(--mute)}
+.logo{width:36px;height:36px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font-weight:800;font-size:1.3rem}
+nav{display:flex;gap:16px}
+nav a{text-decoration:none;color:var(--mute);font-weight:600;font-size:.92rem}
+nav a:hover{color:var(--ink)}
+#theme{border:1px solid var(--line);background:var(--card);color:var(--ink);width:38px;height:38px;border-radius:50%;cursor:pointer;font-size:1rem}
+@media(max-width:560px){nav{display:none}}
+.hero{position:relative;overflow:hidden;background:#0c1915;color:#eef5f0;padding:44px 0 48px}
+.hero .wrap{display:flex;align-items:center;gap:32px;justify-content:space-between}
+.hero h1{font-size:clamp(2rem,6vw,3.4rem);line-height:1.05;margin:0 0 14px;font-weight:800;letter-spacing:-.02em;max-width:14em}
+.hero p{margin:0 0 18px;color:#a9c0b5;max-width:32em}
+.now{display:inline-flex;gap:10px;align-items:center;border:1px solid #29453a;border-radius:99px;padding:6px 14px;font-weight:600;font-size:.9rem}
+.now i{width:8px;height:8px;border-radius:50%;background:#46d39c;box-shadow:0 0 8px #46d39c}
+.bigE{flex:none;width:clamp(96px,22vw,180px);aspect-ratio:1;border-radius:50%;border:5px solid #ff4d57;color:#ff4d57;display:grid;place-items:center;font-weight:800;font-size:clamp(3.4rem,12vw,7rem);line-height:1;text-shadow:0 0 22px #ff4d57;box-shadow:0 0 30px #ff4d5766,inset 0 0 24px #ff4d5744;animation:glow 1.6s ease-out 1}
+@keyframes glow{0%,30%{opacity:.25}35%{opacity:1}42%{opacity:.4}50%,100%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.bigE{animation:none}html{scroll-behavior:auto}}
+@media(max-width:560px){.bigE{display:none}}
+main{padding:26px 0 10px}
+.notice{background:var(--soft);border:1px dashed var(--green);border-radius:10px;padding:10px 14px;font-size:.88rem;margin-bottom:18px}
+.date{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px}
+.date .mid{flex:1;text-align:center;font-weight:800;font-size:1.1rem;min-width:150px}
+.date small{display:block;font-weight:400;color:var(--mute);font-size:.85rem}
+.date button,.date input{font:inherit;font-weight:600;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:99px;padding:8px 16px;cursor:pointer}
+.hours{color:var(--mute);font-size:.88rem;margin:8px 4px 14px}
+#hint{background:var(--soft);border-radius:8px;padding:8px 12px;font-size:.88rem;margin-bottom:14px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.chips:empty{display:none}
+.fc{font:inherit;font-size:.88rem;font-weight:600;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:6px 14px;cursor:pointer}
+.fc[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:var(--on)}
+#list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:16px}
+.card{display:flex;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.sign{flex:none;width:58px;background:var(--red);color:#fff;font-weight:800;font-size:2rem;display:flex;justify-content:center;padding-top:14px}
+.body{padding:16px;flex:1;min-width:0}
+.body h3{margin:0;font-size:1.25rem;line-height:1.2}
+.live{display:inline-flex;align-items:center;gap:6px;color:var(--green);font-weight:600;font-size:.85rem;margin-bottom:4px}
+.live i{width:8px;height:8px;border-radius:50%;background:var(--green)}
+.mah{margin:2px 0 0;color:var(--green);font-weight:600;font-size:.88rem}
+.adr{margin:6px 0 8px;color:var(--mute);font-size:.94rem}
+.tel{display:inline-block;font-size:1.4rem;font-weight:800;text-decoration:none;margin-bottom:12px}
+.btns{display:flex;gap:8px;flex-wrap:wrap}
+.btns a,.btns button{font:inherit;font-size:.9rem;font-weight:600;text-decoration:none;text-align:center;border-radius:99px;padding:9px 16px;cursor:pointer;border:1.5px solid var(--green);color:var(--green);background:transparent}
+.btns .call{background:var(--green);color:var(--on)}
+.btns .quiet{border-color:var(--line);color:var(--mute)}
+.empty{grid-column:1/-1;background:var(--card);border:1px dashed var(--line);border-radius:10px;padding:26px;text-align:center;color:var(--mute)}
+.empty b{color:var(--ink)}.empty a{color:var(--green);font-weight:600}.hours a{color:var(--green);font-weight:600}
+section.blk{margin-top:44px}
+h2{font-size:1.5rem;margin:0 0 14px;letter-spacing:-.01em}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px}
+.info div{border-left:4px solid var(--green);padding:4px 0 4px 14px;color:var(--mute);font-size:.94rem}
+.info b{display:block;color:var(--ink);font-size:1rem}
+.info .red{border-color:var(--red)}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;margin-bottom:8px;padding:0 16px}
+summary{cursor:pointer;font-weight:600;padding:14px 0}
+details p{margin:0 0 14px;color:var(--mute)}
+.about{color:var(--mute);max-width:60ch}
+footer{margin-top:50px;border-top:1px solid var(--line);padding:22px 0 30px;color:var(--mute);font-size:.85rem}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap bar">
+  <a class="brand" href="#top"><span class="logo" aria-hidden="true">E</span><span><b>Kestel Nöbetçi Eczane</b><small>Bursa, Kestel</small></span></a>
+  <nav><a href="#eczaneler">Nöbetçi eczaneler</a><a href="#sss">Sık sorulanlar</a><a href="#hakkinda">Hakkında</a></nav>
+  <button id="theme" aria-label="Açık veya koyu temayı değiştir">◐</button>
+</div></header>
+
+<section class="hero" id="top"><div class="wrap">
+  <div>
+    <h1>Kestel'de bu gece hangi eczane nöbetçi?</h1>
+    <p>Bugünün nöbetçi eczanelerini adresi ve telefonuyla görün, tek dokunuşla arayın ya da yol tarifi alın.</p>
+    <span class="now"><i></i><span id="clock"></span></span>
+  </div>
+  <div class="bigE" aria-hidden="true">E</div>
+</div></section>
+
+<main class="wrap" id="eczaneler">
+  <div class="notice" id="notice">Bu sayfadaki eczane bilgileri <b>örnek veridir</b>. Yayına almadan önce dosyadaki <code>VERI</code> alanına resmi nöbet listesini girin ve <code>ORNEK</code> değerini <code>false</code> yapın.</div>
+  <div class="date">
+    <button id="prev" aria-label="Önceki gün">‹ Önceki</button>
+    <div class="mid"><span id="dlabel"></span><small id="dsub"></small></div>
+    <button id="today">Bugün</button>
+    <input type="date" id="dpick" aria-label="Tarih seç">
+    <button id="next" aria-label="Sonraki gün">Sonraki ›</button>
+  </div>
+  <p class="hours">Nöbet saatleri eczaneye göre değişir; her kartta resmî saat yazar.</p>
+  <div id="hint" hidden>Saat 08:30'a kadar bir önceki günün nöbet listesi geçerlidir. Dünün listesine bakmak için "Önceki"ye dokunun.</div>
+  <div class="chips" id="chips"></div>
+  <div id="list"></div>
+  <p class="hours">Kaynak: <a href="https://www.beo.org.tr/nobetci-eczaneler" target="_blank" rel="noopener">Bursa Eczacı Odası resmî nöbet listesi</a>. Bu sayfaya en son işlenen liste: 29 Eylül 2026.</p>
+
+  <section class="blk info">
+    <div class="red"><b>Acil durum: 112</b>Hayati tehlike varsa eczaneye gitmeyin, 112'yi arayın.</div>
+    <div><b>Önce arayın</b>Gitmeden nöbetçi olduklarını ve ilacın stokta olduğunu teyit edin.</div>
+    <div><b>Yanınıza alın</b>Reçetenizi ve kimliğinizi götürmeyi unutmayın.</div>
+  </section>
+
+  <section class="blk" id="sss">
+    <h2>Sık sorulan sorular</h2>
+    <details><summary>Nöbetçi eczane nedir?</summary><p>Mesai saatleri dışında, hafta sonları ve resmî tatillerde hizmet vermek üzere sırayla görevlendirilen eczanelerdir. Nöbet düzenini Eczacı Odası belirler.</p></details>
+    <details><summary>Gece gittiğimde eczane kapalı görünürse ne yapmalıyım?</summary><p>Nöbetçi eczaneler gece de hizmet verir, ancak kepenk kapalı olabilir. Kapıdaki zile basın ya da önce telefonla arayın.</p></details>
+    <details><summary>İlaç almak için neye ihtiyacım var?</summary><p>Reçeteli ilaçlar için reçete ve kimlik gerekir. Reçetesiz ilaçlarda eczacıdan bilgi alabilirsiniz.</p></details>
+    <details><summary>Listede yanlış bilgi görürsem ne yapmalıyım?</summary><p>Bursa Eczacı Odası'nın güncel duyurusunu esas alın ve sayfa yöneticisine haber verin.</p></details>
+  </section>
+
+  <section class="blk" id="hakkinda">
+    <h2>Hakkında</h2>
+    <p class="about">Bu sayfa resmî bir kurumun sitesi değildir; Kestel'de yaşayanlara nöbetçi eczaneyi hızlı bulmaları için hazırlanmıştır. Nöbet bilgileri Bursa Eczacı Odası'nın yayımladığı resmî listeye göre düzenlenir. Bir eczaneye gitmeden önce telefonla teyit etmenizi öneririz.</p>
+  </section>
+</main>
+<footer><div class="wrap">Kestel Nöbetçi Eczane, bağımsız bilgilendirme sayfasıdır. Acil durumlarda 112'yi arayın.</div></footer>
+
+<script>
+const ORNEK = false; // true yaparsanız örnek eczaneler görünür.
+// Her satır: TARİH | ECZANE ADI | MAHALLE | ADRES | TELEFON | ENLEM,BOYLAM | GOOGLE HARİTALAR LİNKİ | NÖBET SAATİ
+// (# ile başlayan satırlar yok sayılır). Kaynak: Bursa Eczacı Odası, konum: Google Haritalar.
+const VERI = `
+2026-09-29 | Bayrak Eczanesi | Vani Mehmet Mah. | Pars Sok. No:11/A (Merkez Sağlık Ocağı yanı) | 0224 374 00 40 | 40.1985826,29.2128284 | https://maps.google.com/?cid=11700647362101951199 | 29.09.2026 18:00 – 30.09.2026 08:30
+`;
+const ORNEK_LISTE = [
+  {ad:"Örnek Eczanesi 1",mah:"Mahalle A",adres:"Örnek Cad. No:1, Kestel/Bursa",tel:"0224 000 00 01"},
+  {ad:"Örnek Eczanesi 2",mah:"Mahalle B",adres:"Örnek Sok. No:2, Kestel/Bursa",tel:"0224 000 00 02"},
+  {ad:"Örnek Eczanesi 3",mah:"Mahalle A",adres:"Örnek Cad. No:3, Kestel/Bursa",tel:"0224 000 00 03"},
+  {ad:"Örnek Eczanesi 4",mah:"Mahalle C",adres:"Örnek Sok. No:4, Kestel/Bursa",tel:"0224 000 00 04"},
+  {ad:"Örnek Eczanesi 5",mah:"Mahalle B",adres:"Örnek Cad. No:5, Kestel/Bursa",tel:"0224 000 00 05"},
+  {ad:"Örnek Eczanesi 6",mah:"Mahalle C",adres:"Örnek Sok. No:6, Kestel/Bursa",tel:"0224 000 00 06"}
+];
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pad = n => String(n).padStart(2,"0");
+const iso = d => d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());
+const noon = d => { d.setHours(12,0,0,0); return d; };
+let cur = noon(new Date()), sel = "";
+if (!ORNEK) $("notice").hidden = true;
+
+const NOBET = {};
+VERI.split("\n").map(s => s.trim()).filter(s => s && s[0] !== "#").forEach(l => {
+  const [t,ad,mah,adres,tel,konum,harita,saat] = l.split("|").map(x => x.trim());
+  if (/^\d{4}-\d\d-\d\d$/.test(t) && ad) (NOBET[t] = NOBET[t] || []).push({ad,mah,adres,tel,konum,harita,saat});
+});
+function duty(d){
+  const k = iso(d);
+  if (NOBET[k]) return NOBET[k];
+  if (ORNEK){
+    const n = Math.floor(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())/864e5);
+    return [0,1].map(i => ORNEK_LISTE[(n*2+i) % ORNEK_LISTE.length]);
+  }
+  return [];
+}
+function card(e, live){
+  const txt = e.ad+" – "+e.adres+" – Tel: "+e.tel;
+  return `<article class="card"><div class="sign" aria-hidden="true">E</div><div class="body">
+    ${live?'<div class="live"><i></i>Şu an nöbetçi</div>':''}
+    <h3>${esc(e.ad)}</h3>
+    ${e.mah?`<p class="mah">${esc(e.mah)}</p>`:''}
+    <p class="adr">${esc(e.adres)}</p>
+    ${e.saat?`<p class="adr"><b>Nöbet:</b> ${esc(e.saat)}</p>`:''}
+    <a class="tel" href="tel:${esc((e.tel||"").replace(/\s/g,""))}">${esc(e.tel)}</a>
+    <div class="btns">
+      <a class="call" href="tel:${esc((e.tel||"").replace(/\s/g,""))}">Ara</a>
+      <a href="${e.konum?'https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(e.konum):'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(e.ad+' '+e.adres)}" target="_blank" rel="noopener">Yol tarifi</a>
+      ${e.harita?`<a href="${esc(e.harita)}" target="_blank" rel="noopener">Google Haritalar'da aç</a>`:''}
+      <a class="quiet" href="https://wa.me/?text=${encodeURIComponent(txt)}" target="_blank" rel="noopener">WhatsApp'ta paylaş</a>
+      <button class="quiet" data-copy="${esc(txt)}">Kopyala</button>
+    </div></div></article>`;
+}
+function render(){
+  const now = new Date(), isToday = iso(cur) === iso(now);
+  $("dlabel").textContent = cur.toLocaleDateString("tr-TR",{day:"numeric",month:"long",year:"numeric"});
+  $("dsub").textContent = (isToday ? "Bugün, " : "") + cur.toLocaleDateString("tr-TR",{weekday:"long"});
+  $("dpick").value = iso(cur);
+  $("hint").hidden = !(isToday && now.getHours()*60+now.getMinutes() < 510);
+  const all = duty(cur), mahs = [...new Set(all.map(e => e.mah).filter(Boolean))];
+  $("chips").innerHTML = mahs.length > 1 ? [""].concat(mahs).map(m =>
+    `<button class="fc" aria-pressed="${m===sel}" data-m="${esc(m)}">${m?esc(m):"Tümü"}</button>`).join("") : "";
+  const rows = all.filter(e => !sel || e.mah === sel);
+  $("list").innerHTML = rows.length ? rows.map(e => card(e, isToday)).join("")
+    : `<div class="empty"><b>Bu tarih için nöbet listesi girilmemiş.</b><br><a href="https://www.beo.org.tr/nobetci-eczaneler" target="_blank" rel="noopener">Güncel listeyi Bursa Eczacı Odası'nın sayfasında görün</a></div>`;
+}
+function go(n){ cur.setDate(cur.getDate()+n); sel=""; render(); }
+$("prev").onclick = () => go(-1);
+$("next").onclick = () => go(1);
+$("today").onclick = () => { cur = noon(new Date()); sel=""; render(); };
+$("dpick").onchange = e => { if (e.target.value){ cur = new Date(e.target.value+"T12:00:00"); sel=""; render(); } };
+$("chips").onclick = e => { const b = e.target.closest("button"); if (b){ sel = b.dataset.m; render(); } };
+$("list").onclick = e => {
+  const b = e.target.closest("[data-copy]"); if (!b) return;
+  try { navigator.clipboard.writeText(b.dataset.copy).then(() => { b.textContent = "Kopyalandı"; setTimeout(() => b.textContent = "Kopyala", 1800); }).catch(() => {}); } catch(_) {}
+};
+
+const root = document.documentElement;
+try { const t = localStorage.getItem("tema"); if (t) root.dataset.theme = t; } catch(_) {}
+$("theme").onclick = () => {
+  const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme:dark)").matches;
+  const n = dark ? "light" : "dark"; root.dataset.theme = n;
+  try { localStorage.setItem("tema", n); } catch(_) {}
+};
+function tick(){ $("clock").textContent = "Şu an saat " + new Date().toLocaleTimeString("tr-TR",{hour:"2-digit",minute:"2-digit"}); }
+tick(); setInterval(tick, 30000);
+render();
+</script>
+</body>
+</html>
